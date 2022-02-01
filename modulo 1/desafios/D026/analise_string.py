@@ -1,4 +1,4 @@
-frase = str(input('Digite uma frase: ')).strip().capitalize()
+frase = str(input('Digite uma frase: ')).strip().title()
 print('A frase digitada foi: {}'.format(frase))
 print('A letra "a" está presente {} vezes na frase.'.format(
     frase.lower().count('a')))
