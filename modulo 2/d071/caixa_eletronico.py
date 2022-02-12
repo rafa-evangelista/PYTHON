@@ -1,9 +1,7 @@
 while True:
-    print("""
-    ==========================================
-                CAIXA ELETRÔNICO
-    ==========================================
-    """)
+    print('=' * 50)
+    print('{:^50}'.format('CAIXA ELETRÔNICO'))
+    print('=' * 50)
 
     valor = int(input('Qual valor deseja sacar:  R$ '))
     print('')
